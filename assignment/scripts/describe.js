@@ -69,10 +69,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// We create a variable called isStudent. The variable isStudent is set to a value of true. 
-// When a value is set to only true (or only false), we consider the variable to have a boolean value. 
+// We create a variable called isStudent. The variable isStudent is set to a value of true.
+// When a value is set to only true (or only false), we consider the variable to have a boolean value.
 // We create a variable called age that is set to a number value of 34 that represents a student's age. We also create a variable called zip that is set to a number value of 55407 that represents an area code.
-// Now we move on to the next code block and compare the variables and the values the variables contain. 
+// Now we move on to the next code block and compare the variables and the values the variables contain.
 // If the isStudent boolean value is true, as well as the zip code number value is less than the number value 80000, console.log will output a string value 'You're a student on the West Coast!'
 // If the isStudent boolean value is false, or the age number value is less than the number value 30, console.log will output a string value 'What are your hobbies?'
 // If none of the previous statements met the statement's criteria, we would move on to the next code block and only check if the isStudent variable has a value of true. Since our initial value of isStudent is true, the initial value of zip is not greater than 8000, and the initial value of age is not less than 30, we would indeed console.log 'Welcome to Prime'. This would complete the code.
@@ -128,7 +128,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne-- is set it 'red', but the instructions says it's set to 'blue'. 
 let colorOne = 'red';
+// FIX - colorTwo-- is set it 'blue', but the instructions says it's set to 'red'. 
 let colorTwo = 'blue';
 let mix = true;
 
@@ -145,6 +147,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - Instructions says we check if temp is higher than 39 **AND** ( && ) if time is greater or equal to 4
+// Not **OR** - we do not check if the temp is higher than 39 **OR** ( || ) if the time is great or equal to 4
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +164,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // FIX - Instructions says we check if age is greater than or equal to minAge which it is, so we console.log 'enter' NOT console.log 'no entry'.
   console.log('no entry');
 } else {
   console.log('enter');
